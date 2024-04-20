@@ -73,7 +73,7 @@ static void init_all(IDXGISwapChain *pSwapChain) {
   ImGui_ImplWin32_Init(window);
   ImGui_ImplDX11_Init(pDevice, pDeviceContext);
 
-  Chat::print_message(0x00FFFF, "script loaded");
+  Chat::print_message(0x00FFFF, "itsmaybetokyo was here");
 }
 
 static void do_in_present() {
